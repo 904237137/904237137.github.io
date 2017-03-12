@@ -257,6 +257,9 @@
 
 /*大于320 and 小于480*/
 @media screen and (min-width: 320px) and (max-width:480px){
+	body,html{
+		width:100%;
+	}
 	.reveal-modal{
 		width:96%!important;
 		margin-left: 2%!important;
