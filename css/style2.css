@@ -540,7 +540,7 @@
 		margin-bottom:0;
 	}
 	.newlywarp ul li{
-		width:100%;
+		width:100%!important;
 		margin-bottom:30px;
 	}
 	.newlywarp ul li .span1{
