@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JadeValue</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<!--<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/icomoon.css">-->
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
+<style type="text/css">
+.big-link {display: block;margin-top: 100px;text-align: center;font-size: 70px;color: #06f;}
+</style>
+<link rel="stylesheet" href="css/reveal.css">
+<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.reveal.js"></script>
+</head>
+<body data-spy="scroll" data-offset="50" data-target="navbar-collapse" id="home">
+
+<!-- =========================
+     PRE LOADER       
+============================== -->
+<!-- =========================
+     NAVIGATION LINKS     
+============================== -->
+<div class="navbar navbar-fixed-top custom-navbar navheader" id="navbarId">
+  <div class="container">
+    <!-- navbar header -->
+    <div class="navbar-header headerleft" > <a href="index.html" class="navbar-brand"><img id="logoId" src="images/logo2.png"></a> </div>
+    <div class="collapse navbar-collapse ">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="view/apply.html" class="smoothScroll">APPLY</a></li>
+        <li> <a href="#overview" class="smoothScroll dropdown-toggle ng-binding ng-scope">About Us</a>
+        <ul id="div1">
+            <li> <a href="team.html">Team</a> </li>
+            <li> <a href="view/focus/focus.html">Focus Areas</a> </li>
+            <li> <a href="view/background.html">Background</a> </li>
+            <li> <a href="view/jade.html">The Jade</a> </li>
+            <li> <a href="view/location.html">Location</a> </li>
+        </ul>
+        </li>
+        <li><a href="view/startups.html" class="smoothScroll">STARTUPS</a></li>
+        <li><a href="#sponsors" class="smoothScroll3">EVENTS</a>
+          <ul id="div2">
+            <li> <a href="Upcoming Events.html">Upcoming Events</a> </li>
+            <li> <a href="Retrospect.html">Retrospect </a> </li>
+          </ul>
+        </li>
+
+        <li><a href="#contact" class="smoothScroll2">BLOG</a>
+          <ul id="div3">
+            <li> <a href="view/Announcements.html">In the Press</a> </li>
+            <li> <a href="view/video.html">Videos </a> </li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li> <a href="index.html">Eng&nbsp;&nbsp;<span>|</span></a> </li>
+        <li> <a href="indexC.html">中文</a> </li>
+      </ul>
+    </div>
+  </div>
+  <div class="rightBtn" style="display:none">
+  	<span></span>
+  	<span></span>
+  	<span></span>
+  </div>
+</div>
+<div class="navList">
+	<ul>	
+		<li><a href="view/apply.html">APPLY</a></li>
+		<li>
+			<a href="#ABOUTUS">ABOUT US</a>
+			<ul>
+				<li> <a href="team.html">Team</a> </li>
+		    <li> <a href="view/focus/focus.html">Focus Areas</a> </li>
+		    <li> <a href="view/background.html">Background</a> </li>
+		    <li> <a href="view/jade.html">The Jade</a> </li>
+		    <li> <a href="view/location.html">Location</a> </li>
+			</ul>
+		</li>
+		<li><a href="view/startups.html">STARTUPS</a></li>
+		<li>
+			<a href="#EVENT">EVENTS</a>
+			<ul>
+					<li> <a href="Upcoming Events.html">Upcoming Events</a> </li>
+  			 <li> <a href="Retrospect.html">Retrospect </a> </li>
+			</ul>
+		</li>
+    <li>
+    	<a href="#BLOG">BLOG</a> 
+    	<ul>
+    		<li> <a href="view/Announcements.html">In the Press</a> </li>
+    		<li> <a href="view/video.html">Videos </a> </li>
+    	</ul>
+    </li>
+    <li>
+    	<a href="index.html">ENG</a> | <a href="indexC.html">中文</a>
+    </li>
+	</ul>
+</div>
+
+
+<!-- =========================
+    INTRO SECTION   
+============================== -->
+<section id="intro" class="parallax-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <h3 class="wow bounceIn anwarp" data-wow-delay="0.9s"> <span class="wowSpan">FinTech</span> Investment & Incubation</h3>
+        <h1 class="wow fadeInUp anwarp" data-wow-delay="1.6s">FinTech 2.0 Incubator</h1>
+        <div class="cenernt"> 
+        	<a href="view/contactUs.html" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs bnwarp btn-mm aboutUs" data-wow-delay="1.6s">CONTACT US</a> 
+        	<a href="https://jinshuju.net/f/v9ZQ1g" target="_blank" class="btn btn-lg btn-danger smoothScroll wow fadeInUp btn-ms applyNow" data-wow-delay="1.6s">APPLY NOW</a> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+	
+</section>
+<!-- =========================
+    OVERVIEW SECTION   
+============================== -->
+<section id="overview" class="parallax-section">
+  <div class="container">
+    <div class="row">
+      <div class="wow fadeInULeft col-md-12 col-sm-12 column-left" data-wow-delay="0.6s">
+      	<p>JadeValue is a Fintech Incubator located in the heart of the financial center in Shanghai, Lujiazui.We provide promising Fintech startups with the capital, talent and network they need to reach their next level.
+	With a stunning view over the Huangpu River, our large incubator space is an innovation, learning and idea exchange platform,
+	where startups, investors, and the global FinTech network can interact.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gtco-section" id="gtco-faq" data-section="faq">
+	<link rel="stylesheet" href="css/style3.css">
+			<div class="gtco-container">
+				<div class="row row2">
+					<div class="col-md-6">
+
+						<div class="gtco-accordion">
+							<div class="gtco-accordion-heading">
+								<div class="icon"><i class="icon-cross">+</i></div>
+								<h3>Investment</h3>
+							</div>
+							<div class="gtco-accordion-content">
+								<div class="inner">
+									<p>JadeValue invests between $150-500K for equity in Fintech startups, mainly from Angel to Pre-A round.We are looking for startups with a superior product, scalable business, with a large market and passionate entrepreneurial team. Founders that are devoted and confident, show intelligent integration between knowledge and resources, and aiming for a quick break through. We love founders that are embracing the addictive rawness of entrepreneurship, and transcends this endorphin filled energy to their team to achieve amazing things together.</p>
+								</div>
+							</div>
+						</div>
+						
+
+					</div>
+					<div class="col-md-6">
+
+						<div class="gtco-accordion">
+							<div class="gtco-accordion-heading">
+								<div class="icon"><i class="icon-cross">+</i></div>
+								<h3>Investment & Incubation</h3>
+							</div>
+							<div class="gtco-accordion-content">
+								<div class="inner">
+									<p>Several of our portfolio companies relocate to our Incubation space in Shanghai, Lujiazui. JadeValue provides startups with free prime office for 6 months, access to our large global network of media, investors and Fintech professionals. They will also have exclusive access to our great in-house team with expertise in everything from e.g. data analytics, recruitment, fund raising, government affairs to graphic design. By removing everyday barriers, we assist the startups to speed up their growth and increase their likelihood of gaining real traction.  </p>
+								</div>
+							</div>
+						</div>
+						
+
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- =========================
+    DETAIL SECTION   
+============================== -->
+<section id="detail" class="parallax-section">
+  <div class="container">
+    <div class="row">
+      <div class="wow bounceIn col-md-12 col-sm-12 conwarp">
+        <div class="section-title">
+          <h2>What Are Some Of The Benefits?</h2>
+        </div>
+      </div>
+      <div class="wow fadeInLeft col-md-4 col-sm-4 cnwarp wowDIV" data-wow-delay="0.3s">
+        <i class="fa-icon1"></i>
+        <h3>Capital</h3>
+        <p>Seed to Pre-A Investment</p>
+        <p>Large VC & PE Network</p>
+        <p>Free Prime Office Space</p>
+      </div>
+      <div class="wow fadeInUp col-md-4 col-sm-4 cnwarp wowDIV" data-wow-delay="0.6s">
+        <i class="fa-icon2"></i>
+        <h3>Network</h3>
+        <p class="lade_p">Media Exposure</p>
+        <p clsss="lade_p">Seminars & Speeches</p>
+        <p class="lade_p">Industry Events</p>
+      </div>
+      <div class="wow fadeInRight col-md-4 col-sm-4 cnwarp wowDIV" data-wow-delay="0.9s">
+        <i class="fa-icon3"></i>
+        <h3>Advisory</h3>
+        <p>In-house Advisory Team</p>
+        <p>Recruitment Service</p>
+        <p>Visiting Advisors</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!------------------------------------------------------------------------>
+<!-------------------------------------pop-up box--------------------------------------------------------------->
+<div id="myModal" class="reveal-modal">
+  <div class="reveal_left"><img src="images/t-01.png"></div>
+  <div class="reveal_right">
+  <h1>Johan Uddman</h1>
+    <span>General Manager</span>
+  <p>Johan Uddman is the General Manager of JadeValue, building and investing in the next generation of Fintech startups in China and globally. He is also a VP in CashBUS, a market-leading mobile consumer financial service provider in China, founded in 2014. He is a graduate from Stockholm University, and has also studied at Fudan University in Shanghai and NNMU in South Africa.</p>
+  <a class="close-reveal-modal"></a> </div>
+</div>
+<div id="myModal-1" class="reveal-modal">
+  <div class="reveal_left"><img src="images/t-02.png"></div>
+  <div class="reveal_right">
+  <h1>Mus Tang</h1>
+    <span>Investment, GR & VGM</span>
+  <p>Mus Tang is an associate Vice President of JadeValue and CashBUS, working on maintaining and expanding JadeValue’s investment and government relationships. He is also a serial entrepreneur, a grounded business strategist and an angel investor with more than ten years’ experience from internet startups. Prior, he also worked with Huawei as a Key Account Manager in Ghana.</p>
+    <a class="close-reveal-modal"></a> </div></div>
+<div id="myModal-2" class="reveal-modal">
+  <div class="reveal_left"><img src="images/t-03.png"></div>
+  <div class="reveal_right">
+  <h1>Frank Pei</h1>
+    <span>Investment & BD</span>
+  <p>Frank Pei is our Director of Investment & BD, responsible for startup scouting, and VC/PE network development. He has background in Search and Text Mining, and has worked for Ant Financial Big data and AI technology commercialization. With a deep understanding of both the technology and business side, he is a sharp investor and resource for the startups. </p>
+    <a class="close-reveal-modal"></a> </div></div>
+<div id="myModal-3" class="reveal-modal">
+  <div class="reveal_left"><img src="images/t-04.png"></div>
+  <div class="reveal_right">
+  <h1>Steve Shao</h1>
+    <span>BD & AI / Big Data Advisor</span>
+  <p>Steve Shao is our Senior BD and tech advisor in the areas of Artificial Intelligence，Big Data and InsurTech. Prior to joining JadeValue, he founded Tromtek as CTO, and worked in fabless chip design companies, which are based on the solid mathematical foundation of algorithms, technology research and application development. He holds a Ph.D. degree in electrical engineering from Tsinghua University.</p>
+  <a class="close-reveal-modal"></a> </div>
+</div>
+<div id="myModal-4" class="reveal-modal">
+  <div class="reveal_left"><img src="images/t-06.png"></div>
+  <div class="reveal_right">
+  <h1>Changcheng Zhu</h1>
+    <span>Media, PR & Investment</span>
+  <p>Changcheng Zhu is the Head of Media & PR in JadeValue. He was the first reporter to report on internet finance in China with 8 years’ experience in press media, among other from Forbes. By leveraging rich media resources, he assists portfolio companies to gain the right media exposure, e.g. to public and investors, in order to build brand influence. </p>
+  <a class="close-reveal-modal"></a> </div>
+</div>
+<div id="myModal-5" class="reveal-modal">
+  <div class="reveal_left"><img src="images/t-15.png"></div>
+  <div class="reveal_right">
+  <h1>Yishan Zhang</h1>
+    <span>Marketing & Event</span>
+    <p>Yishan Zhang is JadeValue’s marketing advisor, event planner and social media promoter. Prior to joining JadeValue, she has gained well-rounded experience in marketing and branding in both US and China market, across brand consultancy, marketing analytics and social media promotion. She graduated from New York University with master degree in Integrated Marketing.</p>
+    
+  <a class="close-reveal-modal"></a> </div>
+</div>
+<div id="myModal-6" class="reveal-modal">
+  <div class="reveal_left"><img src="images/t-10.png"></div>
+  <div class="reveal_right">
+  <h1>Vincent Yang</h1>
+    <span>Investment & Financial Advisor</span>
+  <p>Vincent Yang is the Investment Manager and Financial Advisor of JadeValue. He is focusing on deal sourcing and investment, assisting startups with finance-related inquiries and taking charge of post-investment management. He has over six years of investment, auditing and advisory experience. Before joining JadeValue, he worked as a Senior Auditor for Ernst & Young and Accountant Supervisor at Haier. He has also helped companies to successfully list on NASDAQ. </p>
+  <a class="close-reveal-modal"></a> </div>
+</div>
+<div id="myModal-7" class="reveal-modal">
+  <div class="reveal_left"><img src="images/t-12.png"></div>
+  <div class="reveal_right">
+  <h1>Sarah Zhang</h1>
+    <span>HR & Administration</span>
+  <p>Sarah works in HR & Administration for JadeValue, dedicated to creating a top-level working environment for our incubated companies and provide excellent office management to keep businesses running smoothly. </p>
+  <a class="close-reveal-modal"></a> </div>
+</div>
+<div id="myModal-8" class="reveal-modal">
+  <div class="reveal_left"><img src="images/t-14.png"></div>
+  <div class="reveal_right">
+  <h1>Jenny Li</h1>
+    <span>Graphic Designer</span>
+  <p>Jenny Li is JadeValue’s excellent graphic designer. She has rich experience in brand design. Prior to joining JadeValue, she has helped a number of startups to create e.g. impressive brand visual identities, event posters, brand brochures and website design. Graduate from the Department of Visual Communication Design, Tianjin University of Science and Technology.  </p>
+  <a class="close-reveal-modal"></a> </div>
+</div>
+<div id="myModal-9" class="reveal-modal">
+  <div class="reveal_left"><img src="images/t-13.png"></div>
+  <div class="reveal_right">
+  <h1>John Huang</h1>
+    <span>Recruitment Advisor</span>
+  <p>John is the recruitment advisor of JadeValue. With rich experience from headhunting of executives, he assists portfolio startups in their recruitment efforts of top talent and advices them on how to build a great startup team.</p>
+  <a class="close-reveal-modal"></a> </div>
+</div>
+<div id="myModal-10" class="reveal-modal">
+  <div class="reveal_left"><img src="images/t-08.png"></div>
+  <div class="reveal_right">
+    <h1>Yuchen Yang</h1>
+    <span>Data Analytics Advisor</span>
+  	<p>Yuchen Yang is our tech advisor, formerly a senior Decision Scientist at Avant in the US. He is specialized in solving business problems with data-driven strategies, making prediction models in R/Python and studying the mainstream distributed system that can be leveraged by FinTech companies. Master degree in Finance at Illinois Institute of Technology. FRM and CFA-level 3 certificated.</p>
+  
+    <a class="close-reveal-modal"></a> </div>
+</div>
+<div id="myModal-11" class="reveal-modal">
+  <div class="reveal_left"><img src="images/t-16.png"></div>
+  <div class="reveal_right">
+    <h1>Andrew Ning</h1>
+    <span>InurTech Expert & Advisor</span>
+    <p>Andrew Ning is our InsurTech expert and advisor, helping startups on strategy, management and conducting deep industry research. He previously worked as a CEO of an InsurTech startup, giving him a deep understanding of the hardships and barriers startup entrepreneurs are going through.   </p>
+    <a class="close-reveal-modal"></a>
+  </div>
+</div>
+<!-- =========================
+    TEAM SECTION   
+============================== -->
+<section id="team" class="parallax-section">
+  <div class="container">
+    <div class="row cd-items cd-container"  >
+      <div class="wow bounceIn col-md-12 col-sm-12">
+        <div class="section-title" >
+          <h2 style="margin-top:0">Our Team</h2>
+        </div>
+      </div>
+      <div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6 cd-item lastUp " data-wow-delay="0.3s"> <a href="#" class="big-link big-" data-reveal-id="myModal"> <img src="images/t-01.png" class="img-responsive" alt="sponsors"> </a>
+        <div class="speakers-thumb">
+          <h3>Johan Uddman</h3>
+          <h6>General Manager</h6>
+        </div>
+      </div>
+      <div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6 lastUp " data-wow-delay="0.5s"> <a href="#" class="big-link" data-reveal-id="myModal-1"> <img src="images/t-02.png" class="img-responsive" alt="sponsors"> </a>
+        <div class="speakers-thumb">
+          <h3>Mus Tang</h3>
+          <h6>Investment, GR & VGM</h6>
+        </div>
+      </div>
+      <div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6 lastUp " data-wow-delay="0.5s"> <a href="#" class="big-link" data-reveal-id="myModal-2"> <img src="images/t-03.png" class="img-responsive" alt="sponsors"> </a>
+        <div class="speakers-thumb">
+          <h3>Frank Pei</h3>
+          <h6>Investment & BD</h6>
+        </div>
+      </div>
+      <div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6 lastUp " data-wow-delay="0.5s"> <a href="#" class="big-link" data-reveal-id="myModal-3"> <img src="images/t-04.png" class="img-responsive" alt="sponsors"> </a>
+        <div class="speakers-thumb">
+          <h3>Steve Shao</h3>
+          <h6>BD & AI / Big Data Advisor</h6>
+        </div>
+      </div>
+      <div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6 lastUp " data-wow-delay="0.7s"> <a href="#" class="big-link" data-reveal-id="myModal-4"> <img src="images/t-06.png" class="img-responsive" alt="sponsors"> </a>
+        <div class="speakers-thumb">
+          <h3>Changcheng Zhu</h3>
+          <h6>Media, PR & Investment</h6>
+        </div>
+      </div>
+      <div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6 lastUp " data-wow-delay="0.9s"> <a href="#" class="big-link" data-reveal-id="myModal-5"> <img src="images/t-15.png" class="img-responsive" alt="sponsors"> </a>
+        <div class="speakers-thumb">
+          
+          <h3>YiShan Zhang</h3>
+          <h6>Marketing & Event</h6>
+        </div>
+      </div>
+      <div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6 lastUp " data-wow-delay="1.2s"> <a href="#" class="big-link" data-reveal-id="myModal-6"> <img src="images/t-10.png" class="img-responsive" alt="sponsors"> </a>
+        <div class="speakers-thumb">
+          <h3>Vincent Yang</h3>
+          <h6>Investment & Financial Advisor</h6>
+        </div>
+      </div>
+      <div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6 lastUp" data-wow-delay="1.4s"> <a href="#" class="big-link" data-reveal-id="myModal-7"> <img src="images/t-12.png" class="img-responsive" alt="sponsors"> </a>
+        <div class="speakers-thumb">
+          <h3>Sarah Zhang</h3>
+          <h6>HR & Administration</h6>
+        </div>
+      </div>
+      <div class="wow fadeInDown col-md-3 col-sm-6 col-xs-6 lastUp" data-wow-delay="1.6s"> <a href="#" class="big-link" data-reveal-id="myModal-8"> <img src="images/t-14.png" class="img-responsive" alt="sponsors"> </a>
+        <div class="speakers-thumb">
+          <h3>Jenny Li</h3>
+          <h6>Graphic Designer</h6>
+        </div>
+      </div>
+      <div class="wow fadeInRight col-md-3 col-sm-6 col-xs-6 lastUp" data-wow-delay="1.8s"> <a href="#" class="big-link" data-reveal-id="myModal-9"> <img src="images/t-13.png" class="img-responsive" alt="sponsors"> </a>
+        <div class="speakers-thumb">
+          <h3>John Huang</h3>
+          <h6>Recruitment Advisor</h6>
+        </div>
+      </div>
+      <div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6 cd-item lastUp" data-wow-delay="0.3s"> <a href="#" class="big-link" data-reveal-id="myModal-10"> <img src="images/t-08.png" class="img-responsive" alt="sponsors"> </a>
+        <div class="speakers-thumb">
+          <h3>Yuchen Yang</h3>
+          <h6>Data Analytics Advisor</h6>
+        </div>
+      </div>
+      <div class="wow fadeInRight col-md-3 col-sm-6 col-xs-6 lastUp" data-wow-delay="2.0s"> <a href="#" class="big-link" data-reveal-id="myModal-11"> <img src="images/t-16.png" class="img-responsive" alt="sponsors"> </a>
+        <div class="speakers-thumb">
+          <h3>Andrew Ning</h3>
+          <h6>InurTech Expert & Advisor</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="conwrap">
+    <div class="row">
+      <h3>Fintech Startup Founder? - Get in touch with us today!</h3>
+      <p class="col-md-8">JadeValue provides promising Fintech startups with the Capital,<br/>
+        Network and Advisory they need to reach the next level.</p>
+      <a href="view/apply.html"><button class="btn btn-primary2" href="#">GET IN TOUCH NOW</button></a>
+    </div>
+  </div>
+  <!--------------------------newly increased----------------------------------->
+<div id="newly_increased" class="newly_increased">
+  <div class="container">
+  <div class="row row_con">
+  <div class="new_title">Focus Areas</div>
+    <div class="news_block">
+    	<p>We are investing in the areas we believe will have most impact on the future of inclusive Financial services in China. </p>
+    	<p>Are you running a cutting edge startup within these areas? Get in touch now!</p>
+    </div>
+  <div class="newlywarp" >
+    <ul>
+      <li >
+        <span class="span1"><img src="images/new_icon_2.png"></span>
+        <span class="span2"><p class="p1">InsurTech </p>
+      </li>
+      <li >
+        <span class="span1"><img src="images/new_icon_1.png"></span>
+        <span class="span2">
+          <p class="p1">Blockchain</p>
+      </li>
+      <li >
+        <span class="span1"><img src="images/new_icon_3.png"></span>
+        <span class="span2">
+          <p class="p1">Real Estate big data /al</p>
+      </li>
+      <li class="li">
+        <span class="span1"><img src="images/new_icon_4.png"></span>
+        <span class="span2">
+          <p class="p1">robo adviser</p>
+      </li>
+      <li class="li">
+        <span class="span1"><img src="images/new_icon_5.png"></span>
+        <span class="span2">
+          <p class="p1">Credit diagnostics</p>
+      </li>
+    </ul>
+<!--  </div>
+    <div class="newlywarp2" >
+      <ul>
+      
+    </ul>
+  </div>-->
+    <a href="view/focus/focus.html"><button class="btn btn-primary2 btn-bottom" type="button">know more</button></a>
+  </div>
+</div>
+</div>
+<!--------------------------------------------------------------->
+</section>
+
+<!-- =========================
+    PROGRAM SECTION   
+============================
+<!-- =========================
+   EVENT SECTION   
+============================== -->
+<section id="register" class="parallax-section watchVideo">
+  <div class="container">
+    <div class="row video-warp">
+      <div class="wow fadeInUp col-md-7 col-sm-7 headvideo fadetext" data-wow-delay="0.6s">
+        <h3><em>Watch Video</em> </h3>
+        <h4 class="containerH4">JadeValue was started by Fintech entrepreneurs for FinTech startups, with the aim of becoming the leading Fintech innovation, learning and idea exchange incubator in China.
+</h4>
+        <p><i style="font-style: normal;text-transform: capitalize;"> </i>JadeValue is located in the heart of Shanghai’s financial center, Lujiazui, in Pudong. With a great view over the Huangpu river, and surrounded by the leading domestic and international financial and insurance players.</p>
+        <a href="view/video.html">
+        <p class="h4">VIEW MORE</p>
+        </a> </div>
+      <div class="wow fadeInUp col-md-5 col-sm-5 rightvideo" data-wow-delay="1s">
+        <div class="gtco-video gtco-bg" style="background-image: url(images/t-17.png); ">
+          <ul>
+            <li>
+			        <i class="icon2 video_link videoBtn">
+			        	<a href="#view">			        
+			        				        	
+			        	</a>
+            	</i>
+            </li>			        
+            
+            <li>
+          		<div class="overlay"></div>
+            </li>
+          </ul>
+        </div>
+ <!--       <script type="text/javascript">
+            var videopath = "";
+            var swfplayer = videopath + "videos/flowplayer-3.1.1.swf";
+       </script>-->
+      <!--<div class="col-md-1"></div>-->
+      <!--<div class="wow  col-md-3 col-sm-6 col-xs-6 cd-item " data-wow-delay="0.3s"> <a href="#" class="big-link" data-reveal-id="myModal-12"> <img src="images/t-17.png" class="img-responsive" alt="sponsors"> </a>-->
+      <!--</div>-->
+      
+    </div>
+  </div>
+</section>
+<div class="videoDiv" style="display:none">
+	<div class="closeBtn"></div>
+	<div class="video">
+		<video class="videoWindow" src="../video/video1.mp4" width="640" height="400" controls="controls"></video>
+	</div>
+	<h3 class="title">The national first fintech incubator located in Lujiazui</h3>
+</div>
+<div class="overlay" style="display:none"></div>
+
+
+<!-- =========================
+    STARTUPS SECTION   
+============================== -->
+<section id="sponsors" class="parallax-section sponwarp">
+  <div class="container">
+    <div class="row">
+      <div class="wow bounceIn col-md-12 col-sm-12">
+        <div class="section-title">
+          <h2>Startups</h2>
+        </div>
+      </div>
+      <div class="wow fadeInLeft col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="0.3s"> <a href="http://sh.2boss.cn/" target="_blank"> <img src="images/2boss.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+      <div class="wow fadeInLeft col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="0.6s"> <a href="https://decent.ch/" target="_blank"> <img src="images/decent.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+      <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="0.9s"> <a href="https://www.factom.com/" target="_blank"> <img src="images/factom.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+      <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="1s"> <a href="https://www.ginmon.de/" target="_blank"> <img src="images/ginmon.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+      <div class="wow fadeInLeft col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="1.3s"> <a href="http://www.fspwork.com/web/pcClient!index.action" target="_blank"> <img src="images/fsp.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+      <div class="wow fadeInLeft col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="1.6s"> <a href="http://www.jieandata.cn/" target="_blank"> <img src="images/ja.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+      <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="1.9s"> <img src="images/md.jpg" class="img-responsive" alt="sponsors"> </div>
+      <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="2.2s"> <img src="images/qw.jpg" class="img-responsive" alt="sponsors"> </div>
+      <div class="wow fadeInLeft col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="2.5s"> <a href="#"> <img src="images/sjcb.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+      <div class="wow fadeInLeft col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="2.8s"> <a href="http://www.viewfin.com/" target="_blank"> <img src="images/wy.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+      <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="3.1s"> <a href="https://www.xeenho.com/" target="_blank"> <img src="images/xh.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+      <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="3.4s"> <a href="#"> <img src="images/zgzf.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+      <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="3.4s"> <a href="http://www.bibibx.com/" target="_blank"> <img src="images/xh_a.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+      <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="3.4s"> <a href="http://www.crobike.cn/" target="_blank"> <img src="images/zh_b.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+      <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="3.4s"> <a href="http://www.ins-box.com/" target="_blank"> <img src="images/zh_c.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+      <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="3.4s"> <a href="http://www.zuber.im/home/about" target="_blank"> <img src="images/zh_d.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+      <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="3.4s"> <img src="images/zh_e.jpg" class="img-responsive" alt="sponsors"> </div>
+      <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="3.4s"> <a href="#"> <img src="images/zh_f.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+      <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="3.4s"> <img src="images/zh-g.jpg" class="img-responsive" alt="sponsors"> </div>
+      <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="3.4s" style="marin-bottom:80px;"> <a href="https://www.yumilc.com/index" target="_blank"> <img src="images/zh_h.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+    </div>
+  </div>
+</section>
+<section id="panter" class="parallax-section panterBanner">
+  <div class="container">
+  <div class="row">
+    <div class="wow bounceIn col-md-12 col-sm-12 parwarp">
+      <div class="section-title">
+        <h2 style="margin-top:0px;margin-bottom:30px;">Some Of Our Partners</h2>
+      </div>
+    </div>
+    <div class="wow fadeInLeft col-md-3 col-sm-6 col-xs-6 lastimg" data-wow-delay="0.3s"><a href="http://www.shunwei.com/team" target="_blank"> <img src="images/sw.jpg" class="img-responsive" alt="sponsors"></a> </div>
+    <div class="wow fadeInLeft col-md-3 col-sm-6 col-xs-6 lastimg" data-wow-delay="0.6s"> <a href="http://www.qimingvc.com/index.html" target="_blank"><img src="images/qm.jpg" class="img-responsive" alt="sponsors"> </a></div>
+    <div class="wow fadeInRight col-md-3 col-sm-6 col-xs-6 lastimg" data-wow-delay="0.9s"><a href="http://www.chinagrowthcapital.com/" target="_blank"> <img src="images/hc.jpg" class="img-responsive" alt="sponsors"></a> </div>
+    <div class="wow fadeInRight col-md-3 col-sm-6 col-xs-6 lastimg" data-wow-delay="1s"> <a href="http://caifu.yixin.com/" target="_blank"><img src="images/yxcf.jpg" class="img-responsive" alt="sponsors"> </a></div>
+    <div class="centerlist" >
+      <div class="wow fadeInLeft dide-domn col-md-3 col-sm-6 col-xs-6 lastimg"style="margin-top:-5px;" data-wow-delay="1.1s"> <a href="http://www.xfz.cn/" target="_blank"><img src="images/xfz.jpg" class="img-responsive" alt="sponsors"> </a></div>
+      <div class="wow fadeInLeft dide-domn col-md-3 col-sm-6 col-xs-6 lastimg" data-wow-delay="1.2s" style="margin-top:-5px;"><a href="http://www.xinhua08.com/" target="_blank"> <img src="images/cfic.jpg" class="img-responsive" alt="sponsors"> </a></div>
+    </div>
+  </div>
+</section>
+
+
+<a href="#home" class="fanbtn"><!--<button class="buttonfa"></button>--></a>
+<!-- ========================= fotter============================== -->
+<section id="contact" class="parallax-section" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 fontwarp">
+        <div class="fh5co-footer-widget">
+          <h3>LINKS</h3>
+          <ul class="fh5co-links">           
+            <li> <a href="http://www.shunwei.com/team">顺为资本</a> </li>
+            <li> <a href="http://www.qimingvc.com/index.html">启明创投</a> </li>
+            <li> <a href="http://www.chinagrowthcapital.com/">华创资本</a> </li>
+            <li> <a href="http://caifu.yixin.com/">宜信财富</a> </li>                     
+          </ul>
+        </div>
+        <div class="fh5co-footer-aidget">
+          <h3>FURTHER INFORMATION</h3>
+          <ul class="fh5co-links">
+          	<li> <a href="view/contactUs.html">Contact Us</a> </li>
+            <li> <a href="view/pressKit.html">Press Kit</a> </li>
+            <li><a href="view/Announcements.html">In The Press</a></li>
+          </ul>
+        </div>
+        <div class="fh5co-footer-warp">
+          <h3>FOLLOW US</h3>
+          <ul class="fh5co-widget">          
+            <li> <a href="https://www.facebook.com/jadevaluefintech/"><i class="icon_2"></i></a> </li>
+            <li> <a href="https://www.linkedin.com/company/13216355?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A13216355%2Cidx%3A2-1-2%2CtarId%3A1476760352852%2Ctas%3A%20jadevalue%20fintech" ><i class="icon_3" ></i></a> </li>
+            <li> <a href="https://twitter.com/Jadeworker"><i class="icon_4"></i></a> </li>         
+          </ul>
+        </div>
+        <div class="fh5co-footer-wechat">
+        		<img src="images/weixin.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--
+<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+------->
+
+<!-- =========================
+     SCRIPTS   
+============================== --> 
+<script src="js/jquery.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.parallax.js"></script> 
+<script src="js/owl.carousel.min.js"></script> 
+<script src="js/smoothscroll.js"></script> 
+<script src="js/wow.min.js"></script> 
+<script src="js/custom.js"></script>
+<script src="js/modernizr-2.6.2.min.js"></script>
+<!--<script src="js/jquery.magnific-popup.min.js"></script>-->
+<script src="js/main.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	
+	<script src="js/owl.carousel.min.js"></script>
+	
+	<script src="js/jquery.countTo.js"></script>
+
+</body>
+<script>
+var current = 0;  
+	$(".gtco-accordion-heading").click(function(){	                        
+      current = (current+45)%360;                           
+   		$(this).children().eq(0).css({"-webkit-transform":'rotate('+current+'deg)'})
+	})
+	$(".videoBtn").click(function(){
+			$(".overlay").show();
+			$(".videoDiv").show();
+			$(".videoWindow").attr({"src":"video/video1.mp4"})
+			$(".title").html("The national first fintech incubator located in Lujiazui")
+	})
+		$(".closeBtn").click(function(){
+			$(".overlay").hide();
+			$(".videoDiv").hide();
+		})
+</script>
+</html>

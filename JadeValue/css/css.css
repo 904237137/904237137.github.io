@@ -1,0 +1,539 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    padding: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+body {
+    background: #ffffff;
+    font-family: "Helvetica Neue","Arial","Roboto",'Poppins', sans-serif;
+    font-style: normal;
+    text-transform:lowercase;
+    font-weight: 400;
+    margin:0;
+    padding:0;
+}
+
+*{ margin:0;  padding:0;}
+html,body,div,p,ul,ol,li,h1,h2,h3,h4,h5,h6,span,code,em,strong,dl,dt,dd,img{ border:0;}
+html,body{ height:100%;}
+select{ border:1px solid #ccc;}
+li{ list-style:none;}
+.left{ float:left;}
+.right{ float:right;}
+/* ----- clear fix for floats ----- */
+/* these styles instruct non-IE browsers to render container elements so that they fully enclose floats */
+/* without this class applied, a float might hang over the bottom border of it's container */
+.clearfix:after {content:"."; width:0; height:0; line-height:0; font-size:0; display:block; clear:both; visibility:hidden; overflow:hidden;margin:0;}
+.clearfix {display:inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height:1%;}
+.clearfix {display:block;}
+/* End hide from IE-mac */
+.clear{ clear:both; height:0; font-size:0; line-height:0; overflow:hidden;}
+.clearboth{ clear:both;}
+a{ color:#666; text-decoration:none; blr:expression(this.onFocus=this.blur()); outline: none; }
+area { blr:expression(this.onFocus=this.blur());}
+a:hover{ color:#d71318;}
+
+.box{ width:1000px; margin:0 auto; text-align:left;}
+/*头部*/
+.haed {
+    width: 100%;
+    float: left;
+    height: 100px;
+    background: #fff;
+    position: fixed;
+}
+.haed {
+    width: 100%;
+    float: left;
+    height: 100px;
+    background: #fff;
+    position: fixed;
+}
+/*--------------------nav*/
+
+.navbar-left > li > ul > li a{
+    width:auto;
+    text-transform: capitalize;
+    float:left;
+    text-align:left;
+    padding:0px;
+
+}
+.navbar-brand{
+    text-transform: uppercase;
+}
+.navbar-left > li:hover > ul{
+    display:block;
+}
+.navbar-left > li >ul > li{
+    height:30px;
+    margin-right:10px;
+    background:#fff;
+    float:left;
+    line-height:30px;
+    width:100%;
+    padding-left:15px;
+    padding-right:15px;
+    text-align:left;
+    background:#fff;
+    transition:all 0.5s;
+    -moz-transition:all 0.5s; /* Firefox 4 */
+    -webkit-transition:all 2s; /* Safari and Chrome */
+    -o-transition:all 2s; /* Opera */
+
+}
+
+.navbar-brand {
+    padding:0;
+}
+.list-group a {
+    color: #0059b2;
+}
+#myCarousel {
+    margin:50px 0 30px 0;
+}
+.carousel-inner .item img {
+    margin: 0 auto;
+}
+.nav > li > a:focus, .nav > li > a:hover{
+    background:none;
+}
+.navbar-left > li > ul:before{
+    bottom: 100%;
+    left: 40px;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: #fff;
+    border-width: 8px;
+    margin-left: -8px;
+}
+..navbar-toggle:hover .navbar-collapse{
+    display: block;
+}
+.navbar-collapse > .menu {
+    width: 20%;
+    float: left;
+    margin-left:15px;
+    hegiht: auto;
+    list-style: none;
+}
+/*.navbar-left > li*/
+.navbar-left > li > ul{
+    list-style:none;
+    line-height:35px;
+    width:auto;
+    top:60px;
+    float:left;
+    left:0px;
+    padding:0px 0px;
+    display:none;
+    background:#fff;
+    width:auto;
+    position:absolute;
+    border:1px solid #dedede;
+    border-radius: 1px;
+    z-index: 1;
+    border-radius: 5px;
+    -webkit-transition: 0s;
+    -o-transition: 0s;
+    transition: 0s;
+}
+.navbar-left{
+    float:left;
+    margin-left:15%;
+    color:#fff;
+    height:100px;
+}
+.navbar-nav > li >  ul > li:hover{
+    background:#eee;
+    display: block;
+    width:100%;
+    color:#4FAA39;
+    /*font-weight:bold;*/
+}
+.navbar-left > li{
+    position:relative;
+    /*transition:all 0.5s;*/
+    /*-moz-transition:all 0.5s; !* Firefox 4 *!*/
+    /*-webkit-transition:all 2s; !* Safari and Chrome *!*/
+    /*-o-transition:all 2s; !* Opera *!*/
+
+}
+.custom-navbar .navbar-nav > li > ul > li:hover {
+    display: block;
+    width: 100%;
+    color: #4FAA39;
+}
+
+.navbar-left > li a{
+    color:#666;
+    text-transform: uppercase;
+}
+.navbar-left > li a:hover{
+    color:#4c9045;
+
+}
+.navbar-left > li {
+    height: 100px;
+}
+.navbar-nav > li > a {
+    color: #666;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    line-height: 30px;
+    transition: all 0.4s ease-in-out;
+    height: auto;
+    margin-top: 5px;
+}
+
+.navbar-left > li > ul > li {
+    height: 30px;
+    margin-right: 10px;
+    float: left;
+    line-height: 30px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+    background: #fff;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
+}
+ /*.container #navbar-collapse .nav.navbar-nav.navbar-left li:hover ul li a{*/
+    /*!*background: #eee;*!*/
+    /*display: block;*/
+    /*width: 100%;*/
+    /*line-height:30px;*/
+    /*height:30px;*/
+    /*color: #4FAA39;*/
+    /*font-weight: bold;*/
+    /*text-decoration: none;*/
+/*}*/
+.navbar-default .navbar-nav > li > a:hover{
+    color:#69ac49;
+}
+.custom-navbar .navbar-nav > li > ul > li a:hover {
+    color: #4FAA39;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    height: auto;
+
+}
+.custom-navbar .navbar-nav > li > ul > li a:hover {
+    color: #666;
+
+}
+.custom-navbar .navbar-nav > li > ul > li:hover {
+    background: #eee;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #4FAA39;
+}
+
+.navbar-left > li > ul > li a {
+    width: 100%;
+    text-transform: capitalize;
+    float: left;
+    text-align: left;
+    padding: 0px;
+}
+
+.navbar-collapse > .menu {
+    width: 20%;
+    float: left;
+    hegiht: auto;
+    margin-left: 30px;
+    list-style: none;
+}
+.navbar-collapse .menu > li > a {
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #666;
+    text-transform: uppercase;
+}
+.navbar-collapse .menu > li {
+    float: left;
+    width: auto;
+    padding: 10px 5px;
+}
+.hdr_shadow {
+    position: fixed;
+    top: 96px;
+    width: 100%;
+    background-image: url("../images/header_shadow.png");
+    background-repeat: repeat-x;
+    height: 10px;
+    margin: auto;
+    padding: 0;
+    z-index: 500;
+}
+
+/*-------------------------fotter---------------------------*/
+#contact{
+    padding-top: 100px;
+    width: 100%;
+    background:#000;
+    float: left;
+    font-style: normal;
+    clear: both;
+    padding-bottom: 120px;
+}
+.fh5co-footer-widget {
+    width: 22%;
+    float: left;
+    height: auto;
+    color: #fff;
+}
+#contact > h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+#contact {
+    /*background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;*/
+    background-size: cover;
+    background: #000;
+
+    background-position: center center;
+}
+.fh5co-footer-aidget {
+    width: 22%;
+    float: left;
+    height: auto;
+    color: #fff;
+    margin-right: 30px;
+}
+.fh5co-footer-bidget {
+    width: 25%;
+    float: left;
+    height: auto;
+    color: #fff;
+}
+fh5co-footer-bidget ul li {
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.fh5co-footer-aidget ul {
+    list-style: none;
+}
+.fh5co-footer-aidget ul li {
+    text-transform: capitalize;
+    line-height: 25px;
+}
+.fh5co-links {
+    width: auto;
+    float: left;
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style:none;
+    height: auto;
+}
+.fh5co-footer-widget ul {
+    list-style: none;
+    color:#fff;
+
+}
+.fh5co-footer-widget > ul > li > a:hover {
+    color: #3ba14f;
+}
+.fh5co-footer-widget > ul > li > a {
+    color: #fff;
+    font-size: 14px;
+}
+.fh5co-footer-aidget > ul > li a {
+    list-style: none;
+    color: #fff;
+    font-size:14px;
+}
+#contact h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+fh5co-footer-warp > h3 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.fh5co-footer-warp .fh5co-widget {
+    color: #fff;
+}
+.fh5co-footer-warp > ul {
+    width: 100%;
+    float: left;
+    height: auto;
+    font-size: 25px;
+}
+.fh5co-widget {
+    list-style: none;
+}
+.fh5co-widget {
+    width: auto;
+    float: left;
+    margin-left: 0px;
+    padding-left: 0px;
+    height: auto;
+}
+ .fh5co-widget li a .icon_1:hover {
+    width: 27px;
+    float: left;
+    height: 27px;
+    margin-right: 10px;
+    background: url('../images/icon_1_1.png') center center;
+}
+.fh5co-footer-bidget ul li {
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+.fh5co-footer-warp {
+    width: 20%;
+    float: right;
+    height: auto;
+    color: #fff;
+    list-style: normal;
+}
+.fh5co-footer-warp .fh5co-widget {
+    color: #fff;
+}
+.fh5co-widget > li {
+    width: 20%;
+    float: left;
+    height: auto;
+}
+.fh5co-footer-warp .fh5co-widget > li > .aicon > ul > li > i {
+    width: 134px;
+    float: left;
+    background: red;
+    height: 134px;
+    top: 120px;
+    margin-right: 20px;
+    background: url('../images/icon_img.jpg') center center;
+    z-index: 1;
+    position: absolute;
+    right: 10%;
+    display: none;
+}
+.fh5co-widget ul {
+    width: 100%;
+}
+.fontwarp .fh5co-footer-warp .fh5co-widget li .aicon ul li i {
+    width: 134px;
+    float: left;
+    background: red;
+    height: 134px;
+    top: 100px;
+    margin-right: 20px;
+    background: url('../images/icon_img.jpg') center center;
+    z-index: 1;
+    position: absolute;
+    right: 10%;
+    display: none;
+}
+.fontwarp .fh5co-footer-warp .fh5co-widget li > .aicon:hover > ul > li > i{
+    display:block;
+}
+.fontwarp .fh5co-footer-warp .fh5co-widget li a .icon_1{
+    width: 27px;
+    float: left;
+    background: red;
+    height: 27px;
+    margin-right: 40px;
+    background: url('../images/icon_1.png') center center;
+    position: relative;
+    left: 0px;
+}
+.fontwarp .fh5co-footer-warp .fh5co-widget li a .icon_1:hover{
+    background: url('../images/icon_1_1.png') center center;
+}
+.container .row .col-md-12.col-sm-12.fontwarp .fh5co-footer-warp .fh5co-widget li a .icon_2{
+    width: 26px;
+    float: left;
+    background: red;
+    height: 27px;
+    margin-right: 10px;
+    background: url('../images/icon_2.png') center center;
+}
+#contact .container .row .col-md-12.col-sm-12.fontwarp .fh5co-footer-warp .fh5co-widget li a .icon_2:hover{
+    background: url('../images/icon_2_1.png') center center;
+}
+#contact .container .row .col-md-12.col-sm-12.fontwarp .fh5co-footer-warp .fh5co-widget li a .icon_3{
+    width: 27px;
+    float: left;
+    background: red;
+    height: 27px;
+    margin-right: 10px;
+    background: url('../images/icon_3.png') center center;
+}
+#contact .container .row .col-md-12.col-sm-12.fontwarp .fh5co-footer-warp .fh5co-widget li a .icon_3:hover{
+    background: url('../images/icon_3_1.png') center center;
+}
+#contact .container .row .col-md-12.col-sm-12.fontwarp .fh5co-footer-warp .fh5co-widget li a .icon_4{
+    width: 27px;
+    float: left;
+    background: red;
+    height: 27px;
+    margin-right: 10px;
+    background: url('../images/icon_4.png') center center;
+}
+#contact .container .row .col-md-12.col-sm-12.fontwarp .fh5co-footer-warp .fh5co-widget li a .icon_4:hover{
+    background: url('../images/icon_4_1.png') center center;
+}
+.fanbtn{
+    width: 47px;
+    height: 47px;
+    margin: 0 5% 0 95%;
+    float: left;
+    background-image: url(../images/fan_1.png);
+    border: none;
+    color: #fff;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    bottom: 2em;
+    right: 0em;
+    position: fixed;
+}
+.fanbtn:hover{
+    width: 47px;
+    height: 47px;
+    margin: 0 5% 0 95%;
+    float: left;
+    background-image: url(../images/fan_2.png);
+    border: none;
+    color: #fff;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+}
+.fontwarp .fh5co-footer-widget h3,.fontwarp .fh5co-footer-aidget h3{
+    text-transform: uppercase;
+}
+.fontwarp .fh5co-footer-bidget h3{
+    text-transform: uppercase;
+}
+#home #contact .container .row .col-md-12.col-sm-12.fontwarp .fh5co-footer-warp h3{
+    text-transform: uppercase;
+}
+.fh5co-footer-widget > ul > li > a:hover{
+    text-decoration: none;
+}
+.buttonfa {
+    border: none;
+    background: #fff;
+}
