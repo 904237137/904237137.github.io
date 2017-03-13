@@ -1888,6 +1888,9 @@ form label {
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
 }
+.gtco-accordion .gtco-accordion-heading .icon i{
+	font-style:normal;
+}
 .gtco-accordion .gtco-accordion-content {
   border-top: 1px solid #e6e6e6;
   display: none;
