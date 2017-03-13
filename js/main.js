@@ -388,8 +388,6 @@
 		loaderPage();
 		counterWayPoint();
 		accordion();
-		sliderMain();
+		/*sliderMain();*/
 	});
-
-
 }());
