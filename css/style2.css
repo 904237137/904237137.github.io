@@ -260,6 +260,9 @@
 	body,html{
 		width:100%;
 	}
+	.gtco-accordion .gtco-accordion-heading .icon i{
+		font-style:normal;
+	}
 	.reveal-modal{
 		width:96%!important;
 		margin-left: 2%!important;
