@@ -1191,7 +1191,7 @@
         float:left;
         margin-left:5%;
         margin-right:5%;
-        height:auto;
+     /*   height:auto;*/
     }
     .conwrap > .row > h3{
         width:90%;
