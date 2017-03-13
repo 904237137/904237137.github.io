@@ -2872,7 +2872,7 @@ video{
 	top:-100px;
 	left:50%;
 	margin-left:-350px;
-	/*width:700px;*/
+	width:700px;
 	padding:20px 80px 40px;
 	border:1px solid #333;
 	background:#fff;
