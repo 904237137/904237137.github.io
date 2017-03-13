@@ -260,6 +260,9 @@
 	body,html{
 		width:100%;
 	}
+	.rightBtn{
+		display:block!important;
+	}
 	.gtco-accordion .gtco-accordion-heading .icon i{
 		font-style:normal;
 	}
