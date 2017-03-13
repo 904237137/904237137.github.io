@@ -621,7 +621,6 @@ footer {
 .custom-navbar .nav li.active > a {
     background-color: transparent;
     color: #69ac49;
-    text-decoration:;
 }
 .bottom-pust{
 	width:100%;
@@ -1128,7 +1127,7 @@ footer {
 	margin-left:-60px;
     width:120px;
     height:120px;
-    background:url("../images/new_icon_7(2).png") no-repeat;;
+    background:url("../images/new_icon_7(2).png") no-repeat;
     background-size:cover;
 }
 #home #detail .container .cnwarp .fa-icon2:hover{
@@ -1148,7 +1147,7 @@ footer {
 	margin-left:-60px;
     width:120px;
     height:120px;
-    background:url("../images/new_icon_8(2).png") no-repeat;;
+    background:url("../images/new_icon_8(2).png") no-repeat;
     background-size:cover;
 }
 
@@ -1475,9 +1474,9 @@ footer {
     width:100%;
     text-align:justify;
 }
-.close-reveal-modal{
-    text-shadow:color||length||length||opacity。
-}
+/*.close-reveal-modal{
+    text-shadow:color||length||length||opacity
+}*/
 /*.reveal_right{*/
     /*float:left;*/
     /*text-align:left;*/
