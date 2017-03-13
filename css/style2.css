@@ -1744,6 +1744,9 @@
 	}
 }
 @media (max-width: 768px) {	
+	#team .speakers-thumb h3{
+		font-size:12px!important;
+	}
 	.reveal-modal{
 		width:96%!important;
 		margin-left: 2%!important;
