@@ -1764,7 +1764,10 @@
         box-shadow:0px 0px 10px 0px #e1e1e1;
         transition: box-shadow 0.3s ease-in-out;
     }
-	.reveal-modal{
+    #home{
+    	width:100%;
+    }
+	#home .reveal-modal{
 		width:96%!important;
 		margin-left: 2%!important;
 		left:0!important;
