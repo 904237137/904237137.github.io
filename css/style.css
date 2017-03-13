@@ -1045,13 +1045,11 @@ footer {
     font-weight:bold;
     font-size:20px;
     margin-top:5px;
-    text-transform: capitalize;
 }
 .speakers-thumb h6{
     font-weight:normal;
     color:#666;
     text-transform: none;
-
 }
 .btn-ms{
     padding: 15px 0px;
