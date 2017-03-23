@@ -248,7 +248,15 @@
 
 /*大于320 and 小于480*/
 @media screen and (min-width: 320px) and (max-width:480px){
-	
+	#sponsors ul{
+		width:100%;
+	}
+	#sponsors ul li{
+		width:33.3333%;
+		float:left;
+		padding:5px;
+		list-style: none;
+	}
 	.rightBtn {
 		display:block!important;
 	}

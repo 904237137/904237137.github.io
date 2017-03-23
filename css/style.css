@@ -19,6 +19,16 @@ a{
 img{
     border:none;
 }
+#sponsors ul{
+	width:100%;
+}
+#sponsors ul li{
+	width:20%;
+	float:left;
+	padding:15px;
+	list-style: none;
+}
+
 
 /*@font-face {font-family: 'Open Sans';
     src: url('opensans.eot'); !* IE9*!
