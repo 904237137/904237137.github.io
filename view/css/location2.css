@@ -41,7 +41,6 @@
 span.hide-box {
 	background: rgba(105, 172, 73, 0.63);
 	position: absolute;
-	z-index: 9;
 	display: none;
 	width: 100%;
 	height:100%;
