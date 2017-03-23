@@ -250,7 +250,17 @@
 	<script>
 	  // /* $(".gal-alt").off('mouseenter').unbind('mouseleave');
 	  	$(function(){
-	    	$(".hide-box").unbind('mouseenter mouseleave')
+	    	//$(".gal-alt").unbind('mouseenter mouseleave')
+	    	$(".gal-alt").hover(function(){
+			    $(this).children().eq(1).css("display","block");
+			},function(){
+			     $(this).children().eq(1).css("display","none");
+			}); 	
+			var bodyWidth=document.body.clientWidth;
+			if(bodyWidth<=480){
+				$(".gal-alt").unbind('mouseenter mouseleave')
+			}
+			
 	    })
 		$(".li01").click(function(){
 			$(".imgOverlay").show();
