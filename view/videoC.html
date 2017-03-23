@@ -125,7 +125,7 @@
 		<div class="videoDiv" style="display:none">
 			<div class="closeBtn"></div>
 			<div class="video">
-				<video class="videoWindow" src="../video/video1.mp4" width="640" height="400" controls="controls"></video>
+				<video class="videoWindow"  id="videoID" src="../video/video1.mp4" width="640" height="400" controls="controls"></video>
 			</div>
 			<h3 class="title">国内首家金融科技孵化器落户陆家嘴</h3>
 		</div>
@@ -185,6 +185,8 @@
 		$(".closeBtn").click(function(){
 			$(".overlay").hide();
 			$(".videoDiv").hide();
+			var audio = document.getElementById('videoID');
+			audio.pause();
 		})
 	</script> 
 </html>

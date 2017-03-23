@@ -23,7 +23,6 @@ $(window).scroll(function() {
         $("#logoId").attr("src","images/logo2.png");
     }
 });
-
 $(".rightBtn").click(function(){
     
     if($("body").hasClass("togg")){

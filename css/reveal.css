@@ -20,12 +20,11 @@ Reveal Modals
 	left: 50%;
 	margin-left: -500px;
 	/*width: 1000px;*/
-	height:340px;
+	/*height:340px;*/
 	pointer-events:none;
 	/*background: #eee url(modal-gloss.png) no-repeat -200px -80px;*/
 	background:#fff;
 	position:absolute;
-
 	z-index: 101;
 	padding: 50px 100px 30px 100px;
 	-moz-border-radius: 5px;

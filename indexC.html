@@ -420,32 +420,37 @@
     <ul>
       <li >
         <span class="span1"><img src="images/new_icon_2.png"></span>
-        <span class="span2"><p class="p1">保险科技 </p>
+        <span class="span2"><p class="p1">保险科技 </p></span>
       </li>
       <li >
         <span class="span1"><img src="images/new_icon_1.png"></span>
         <span class="span2">
           <p class="p1">区块链</p>
+          </span>
       </li>
       <li >
         <span class="span1"><img src="images/new_icon_3.png"></span>
         <span class="span2">
           <p class="p1">房地产大数据/人工智能</p>
+          </span>
       </li>
       <li class="li">
         <span class="span1"><img src="images/new_icon_4.png"></span>
         <span class="span2">
           <p class="p1">智能投顾</p>
+          </span>
       </li>
       <li class="li">
         <span class="span1"><img src="images/new_icon_5.png"></span>
         <span class="span2">
           <p class="p1">信用诊断</p>
+          </span>
       </li>
     </ul>
 
     <a href="view/focus/focusC.html"><button class="btn btn-primary2 btn-bottom">了解更多</button></a>
   </div>
+</div>
 </div>
 </div>
 <!--------------------------------------------------------------->
@@ -471,7 +476,7 @@
         <div class="gtco-video gtco-bg" style="background-image: url(images/t-17.png); ">
           <ul>
             <li>
-			        <i class="icon2 video_link">
+			        <i class="icon2 video_link videoBtn">
 			        	<a href="#video">			        
 			        		<!--<img src="images/icon01.png" alt="" />	-->			        	
 			        	</a>
@@ -482,15 +487,18 @@
             </li>
           </ul>
         </div>
-        <script type="text/javascript">
-            var videopath = "";
-            var swfplayer = videopath + "videos/flowplayer-3.1.1.swf";
-        </script>
-
-      
+      </div>
     </div>
   </div>
 </section>
+<div class="videoDiv" style="display:none">
+  <div class="closeBtn"></div>
+  <div class="video">
+    <video id="videoID" class="videoWindow" src="video/video1.mp4" width="640" height="400" controls="controls"></video>
+  </div>
+  <h3 class="title">国内首家金融科技孵化器落户陆家嘴</h3>
+</div>
+<div class="overlay" style="display:none"></div>
 <!-- =========================
     STARTUPS SECTION   
 ============================== -->
@@ -521,7 +529,7 @@
       <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="3.4s"> <img src="images/zh_e.jpg" class="img-responsive" alt="sponsors"> </div>
       <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="3.4s"> <a href="#"> <img src="images/zh_f.jpg" class="img-responsive" alt="sponsors"> </a> </div>
       <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="3.4s"> <img src="images/zh-g.jpg" class="img-responsive" alt="sponsors"> </div>
-      <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="3.4s" style="marin-bottom:80px;"> <a href="https://www.yumilc.com/index" target="_blank"> <img src="images/zh_h.jpg" class="img-responsive" alt="sponsors"> </a> </div>
+      <div class="wow fadeInRight col-md-2 col-sm-6 col-xs-6 fastimg" data-wow-delay="3.4s"> <a href="https://www.yumilc.com/index" target="_blank"> <img src="images/zh_h.jpg" class="img-responsive" alt="sponsors"> </a> </div>
     </div>
   </div>
 </section>
@@ -541,6 +549,7 @@
       <div class="wow fadeInLeft dide-domn col-md-3 col-sm-6 col-xs-6 lastimg"style="margin-top:-5px;" data-wow-delay="1.1s"><a href="http://www.xfz.cn/" target="_blank"> <img src="images/xfz.jpg" class="img-responsive" alt="sponsors"> </a> </div>
       <div class="wow fadeInLeft dide-domn col-md-3 col-sm-6 col-xs-6 lastimg" data-wow-delay="1.2s" style="margin-top:-5px;margin-bottom:80px;"> <a href="http://www.xinhua08.com/" target="_blank"><img src="images/cfic.jpg" class="img-responsive" alt="sponsors"></a>  </div>
     </div>
+  </div>
   </div>
 </section>
 
@@ -613,5 +622,17 @@
       current = (current+45)%360;                           
    		$(this).children().eq(0).css({"-webkit-transform":'rotate('+current+'deg)'})
 	})
+  $(".videoBtn").click(function(){
+    $(".overlay").show();
+    $(".videoDiv").show();
+    $(".videoWindow").attr({"src":"video/video1.mp4"})
+    $(".title").html("国内首家金融科技孵化器落户陆家嘴")
+  })
+  $(".closeBtn").click(function(){
+    $(".overlay").hide();
+    $(".videoDiv").hide();
+    var audio = document.getElementById('videoID');
+    audio.pause();
+  })
 </script>
 </html>

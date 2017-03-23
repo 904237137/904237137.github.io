@@ -1,10 +1,6 @@
-/*@charset "utf-8";*/
 
-/*@media screen and (min-width: 640px) {
-    .navbar-left:0px;
-}
-*/
 @media screen and (min-width: 768px) and (max-width:992px){
+	
 	.reveal-modal{
 		width:96%!important;
 		margin-left:2%!important;
@@ -182,15 +178,15 @@
 		margin:0 15px 15px 0!important;
 	}
 	.contact .map iframe{
-		width:100%!important;	}
+		width:100%!important;	
+	}
 }
 
 @media screen and (min-width: 992px){
-	#register .headvideo{
+	
+	#register .container .headvideo {
 		height:350px;
 	}
-    .navbar-left {
-    }
     .nav > li > a {
         padding: 25px 15px;
     }
@@ -247,20 +243,13 @@
         float:left;
         padding:15px 15px;
     }
-    /*animated {
-        padding: 15px 15px;
-        float: left;
-    }*/
-    
 }
 
 
 /*大于320 and 小于480*/
 @media screen and (min-width: 320px) and (max-width:480px){
-	body,html{
-		width:100%;
-	}
-	.rightBtn{
+	
+	.rightBtn {
 		display:block!important;
 	}
 	.gtco-accordion .gtco-accordion-heading .icon i{
@@ -600,6 +589,7 @@
 	}
 	#acheive .gallery-grids .hide-box h4{
 		font-size:14px;
+		margin-top:0;
 	}
 	/***************
 	 * 
@@ -800,7 +790,6 @@
 		height:70px;
 		padding:0 10px;
 		line-height:20px;
-		word-wrap:break-all;
 		font-size:16px;
 	}
 	.PcomingDiv .PcomingImg{
@@ -1417,6 +1406,7 @@
 	}
 }
 @media screen and (max-width: 410px) and (min-width:375px){
+	
 	#intro .cenernt{
 		padding:0 15%!important;
 	}
@@ -1437,26 +1427,6 @@
 	#startupsImg{
 		height:700px;
 	}
-	/*#home #detail .container .cnwarp .fa-icon1,
-	#home #detail .container .cnwarp .fa-icon2,
-	#home #detail .container .cnwarp .fa-icon3{
-		width:120px;
-	    float:left;
-	    margin-left:28%;
-	    margin-right:40%;
-	    height:120px;
-		background-size:120px;
-	}
-	#home #detail .container .cnwarp .fa-icon1:hover,
-	#home #detail .container .cnwarp .fa-icon2:hover,
-	#home #detail .container .cnwarp .fa-icon3:hover{
-		width:120px;
-	    float:left;
-	    margin-left:28%;
-	    margin-right:40%;
-	    height:120px;
-		background-size:120px;
-	}*/
 }
 @media screen and (max-width: 470px) and (min-width:410px){
 	.listwarp ul li #eventImg{
@@ -1480,26 +1450,6 @@
 	}
 	/*#register .headvideo{
 		height:350px;
-	}*/
-	/*#home #detail .container .cnwarp .fa-icon1,
-	#home #detail .container .cnwarp .fa-icon2,
-	#home #detail .container .cnwarp .fa-icon3{
-		width:120px;
-	    float:left;
-	    margin-left:31%;
-	    margin-right:40%;
-	    height:120px;
-		background-size:120px;
-	}
-	#home #detail .container .cnwarp .fa-icon1:hover,
-	#home #detail .container .cnwarp .fa-icon2:hover,
-	#home #detail .container .cnwarp .fa-icon3:hover{
-		width:120px;
-	    float:left;
-	    margin-left:31%;
-	    margin-right:40%;
-	    height:120px;
-		background-size:120px;
 	}*/
 }
 @media screen and (max-width: 370px) and (min-width:350px){
@@ -1574,26 +1524,6 @@
 		margin-top:-100px;
 	}
 	/****首页*****/
-	/*#home #detail .container .cnwarp .fa-icon1,
-	#home #detail .container .cnwarp .fa-icon2,
-	#home #detail .container .cnwarp .fa-icon3{
-		width:120px;
-	    float:left;
-	    margin-left:24%;
-	    margin-right:38%;
-	    height:120px;
-		background-size:120px;
-	}
-	#home #detail .container .cnwarp .fa-icon1:hover,
-	#home #detail .container .cnwarp .fa-icon2:hover,
-	#home #detail .container .cnwarp .fa-icon3:hover{
-		width:120px;
-	    float:left;
-	    margin-left:24%;
-	    margin-right:38%;
-	    height:120px;
-		background-size:120px;
-	}*/
 	/*********
      * 
      * announcements页面
@@ -1721,6 +1651,7 @@
 	}
 }
 @media screen and (max-width: 640px) and (min-width:480px){
+	
     .btn-mm{
         width:40%;
         float:left;
@@ -1745,11 +1676,13 @@
 
 }
 @media (max-width: 700px){
+	
 	.rightBtn{
 		display:block!important;
 	}
 }
 @media (max-width: 768px) {	
+	
 	#intro h3{
 		font-size:32px;
 	}
@@ -1855,9 +1788,6 @@
 		border:1px solid #69AC49;
 		font-size:16px;
 	}
-    #overview img,
-    #detail .col-md-4,
-    {}
 
     .nav-tabs > li > a {
         font-size: 13px;

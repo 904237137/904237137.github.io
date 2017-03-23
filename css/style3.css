@@ -534,7 +534,7 @@ p {
   left: 0;
   top: .05em;
   font-family: 'icomoon';
-  speak: none;
+ /* speak: none;*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -692,7 +692,7 @@ form label {
 }
 @media screen and (max-width: 768px) {
   .feature-center {
-    margin-bottom: 30	px;
+    margin-bottom: 30px;
   }
 }
 .feature-center .icon {
@@ -1020,7 +1020,7 @@ form label {
   position: absolute;
   right: 0px;
   font-family: 'icomoon';
-  speak: none;
+  /*speak: none;*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1398,7 +1398,6 @@ form label {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/loader.gif) center no-repeat #fff;
 }
 
 .js .animate-box {
@@ -1915,7 +1914,7 @@ form label {
 
 #gtco-hero {
   min-height: 700px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
+/*  background: #fff url(../images/loader.gif) no-repeat center center;*/
 }
 #gtco-hero .btn {
   font-size: 24px;
@@ -1987,7 +1986,7 @@ form label {
 #gtco-hero .flexslider .flex-direction-nav a.flex-prev:before {
   text-indent: 0px !important;
   font-family: 'icomoon';
-  speak: none;
+ /* speak: none;*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2004,7 +2003,7 @@ form label {
 }
 #gtco-hero .flexslider .flex-direction-nav a.flex-next:before {
   font-family: 'icomoon';
-  speak: none;
+ /* speak: none;*/
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
