@@ -247,7 +247,7 @@
 	</body>
 	<script src="js/showHide.js"></script>
 	<script>
-		$(".li01").click(function(){
+		$(".li01").bind("click",function(){
 			$(".imgOverlay").show();
 			$(".imgShow").show().css({background:"url(img/Reception.jpg) no-repeat",backgroundSize:"cover"})
 		})
