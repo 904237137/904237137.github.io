@@ -246,12 +246,14 @@
 </section>
 	</body>
 	<script src="js/showHide.js"></script>
+	<script src="js/zepto.min.js"></script>
+	<script src="js/zepto.touch.js"></script>
 	<script>
-		$(".li01").bind("click",function(){
+		$(".li01").touch(function(){
 			$(".imgOverlay").show();
 			$(".imgShow").show().css({background:"url(img/Reception.jpg) no-repeat",backgroundSize:"cover"})
 		})
-		$(".li02").click(function(){
+		$(".li02").touch(function(){
 			$(".imgOverlay").show();
 			$(".imgShow").show().css({background:"url(img/Office-Area.jpg) no-repeat",backgroundSize:"cover"})
 		})
