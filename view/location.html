@@ -155,8 +155,7 @@
 					<!--script-->
 					<div class="gallery-grids">
 						<ul>
-							<li class="col-md-4 gal-alt li01">
-							
+							<li class="col-md-4 gal-alt li01">							
 								<img src="img/Reception.jpg" class="img01" alt="/"/>
 									<span class="hide-box">
 										<h4>Reception</h4>
@@ -249,11 +248,9 @@
 	<!--<script src="js/zepto.min.js"></script>
 	<script src="js/zepto.touch.js"></script>-->
 	<script>
-	  //  $(".gal-alt").off('mouseenter').unbind('mouseleave');
-	    $(".img01").hover(function(){
-	    	$(".hide-box").css({display:"block"})
-	    },function(){
-	    	$(".hide-box").css({display:"none"})
+	  // /* $(".gal-alt").off('mouseenter').unbind('mouseleave');
+	  	$(function(){
+	    	$(".hide-box").unbind('mouseenter mouseleave')
 	    })
 		$(".li01").click(function(){
 			$(".imgOverlay").show();
